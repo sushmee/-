@@ -61,7 +61,7 @@ color: rgb(0, 0, 0);
 
 }
 
-.header .icons a:hover, div:hover{
+.header .icons a:hover, {
     background: rgb(2, 68, 68);
     color: rgb(251, 160, 160);
 }
@@ -72,9 +72,63 @@ color: rgb(0, 0, 0);
     text-decoration: double;
     text-transform: none;
     text-align:center;
+    font-size: 15px;
 }
 .content{
     font-style: italic;
+    padding:5px;
+}
+.btn{
+   
+    border: 1px solid black;
+    background-color: rgb(243, 106, 106);
+    color: black;
+    padding: 3px 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(3, 13, 95);
+}
+.Aboutus{
+    text-transform: none;
+    text-decoration: double;
+      text-align: center;
+}
+.imgaa{
+    box-sizing: border-box;
+    margin: 2px;
+    height: 500px;
+    width: 600px;
+    
+}
+.contentt{
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 15px;
+    font-style: italic;
+}
+.my{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hy{
+    font-size: 18px;
+   text-align: center;
+}
+.btnn{
+    border: 1px solid black;
+    background-color: rgb(243, 106, 106);
+    color: black;
+    padding: 3px 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btnn:hover{
+    color:rgb(0, 89, 100);
+}
+.contentt:hover{
+    color: rgb(246, 105, 105);
 }
 @media (max-width: 991px){
     html{
